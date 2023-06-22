@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #17594a;
+  text-transform: uppercase;
+}
+
+.navbar-nav a:hover {
+  background-color: #8bb8ad;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: 0.5;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #8bb8ad;
+  padding-top: 100px;
+}
+
+.jumbotron .photo img {
+  width: 250px;
+  height: 250px;
+}
+
+.jumbotron .text {
+  padding-top: 15px;
+}
+
+.jumbotron .text .nama {
+  font-size: 30px;
+}
+
+.jumbotron .text .role {
+  font-size: 15px;
+  color: #17594a;
+  font-weight: bold;
+}
+
+.button-contact {
+  width: auto;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.button-contact:hover {
+  background-color: #17594a;
+  transition: 0.5s;
+}
+
+footer {
+  background-color: #17594a;
+}
+
+#about,
+#experience,
+#education,
+#skill,
+#interest,
+#award {
+  padding-top: 6rem;
+}
+
+#tampilan-awal,
+#experience,
+#skill,
+#award {
+  background-color: #8bb8ad;
+}
+
+.card:hover {
+  transform: scaleX(1.05);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.text-edu {
+  color: #17594a;
+  font-weight: bold;
+}
+
+.list-edu {
+  font-size: 20px;
+}
+
+.par-interest {
+  font-size: 20px;
+}
+
+.span-interest {
+  color: #17594a;
+  font-weight: bold;
+}
+
+.btnAward {
+  background-color: #17594a;
+  width: auto;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.textAward {
+  color: #17594a;
+  font-size: 18px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.progress-icon {
+  font-size: 30px;
+  display: flex;
+}
